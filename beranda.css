@@ -10,7 +10,7 @@
   min-height: 85vh;
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("img/bg-fashion.jpg") center/cover no-repeat;
+    url("/bg.jpeg") center/cover no-repeat;
   color: white;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .logo span {
-  color: #ff6f00;
+  color: #0400ff;
 }
 
 /* KANAN */
@@ -133,7 +133,7 @@
 
 /* HOVER */
 .circle-btn:hover {
-  background: #ff6f00;
+  background: #ffffff;
   transform: scale(1.05);
 }
 
@@ -182,4 +182,12 @@
 
 .produk-container img:hover {
   transform: scale(1.05);
+}
+
+.produk-section {
+  min-height: 85vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("/pp2.jpg") center/cover no-repeat;
+  color: white;
 }
