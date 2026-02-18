@@ -10,7 +10,7 @@
   min-height: 85vh;
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("/bg.jpeg") center/cover no-repeat;
+    url("/pngtree-an-image-of-a-clothing-store-image_2519172.jpg") center/cover no-repeat;
   color: white;
 }
 
@@ -188,6 +188,14 @@
   min-height: 85vh;
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("/pp2.jpg") center/cover no-repeat;
+    url("/pngtree-an-image-of-a-clothing-store-image_2519172.jpg") center/cover no-repeat;
   color: white;
+}
+.profil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
 }
