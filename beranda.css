@@ -112,6 +112,7 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+  scroll-behavior: smooth;
 }
 
 .item-kategori {
@@ -133,24 +134,32 @@
 
   transition: 0.3s ease;
 }
-@media (max-width: 768px) {
-  .circle-btn {
-    width: 60px;
-    height: 60px;
-  }
-
-  .kategori {
-    gap: 10px;
-  }
-}
-
-
-
 .circle-btn img {
   width: 42px;
   height: 42px;
   object-fit: contain;
   transition: transform 0.3s ease;
+}
+@media (max-width: 768px) {
+
+  .circle-btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .circle-btn img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .item-kategori p {
+    font-size: 9px;
+  }
+
+  .kategori {
+    gap: 8px;
+  }
+
 }
 
 /* HOVER */
