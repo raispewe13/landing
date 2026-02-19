@@ -15,12 +15,21 @@
 }
 
 /* NAVBAR */
-.atas {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 18px 50px;
 }
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
+
 
 /* LOGO */
 .logo {
@@ -89,7 +98,8 @@
 }
 
 .tengah input {
-  width: 520px;
+  max-width: 520px;
+  width: 90%;
   padding: 14px 20px;
   border-radius: 30px;
   border: none;
@@ -123,6 +133,18 @@
 
   transition: 0.3s ease;
 }
+@media (max-width: 768px) {
+  .circle-btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  .kategori {
+    gap: 10px;
+  }
+}
+
+
 
 .circle-btn img {
   width: 42px;

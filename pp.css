@@ -27,11 +27,17 @@ body {
   backdrop-filter: blur(15px);
   padding: 40px;
   border-radius: 20px;
-  width: 100%;
+  width: 90%;
   max-width: 400px;
   text-align: center;
   color: white;
 }
+@media (max-width: 768px) {
+  .profil-box {
+    width: 95%;
+  }
+}
+
 
 .profile-img {
   width: 90px;
