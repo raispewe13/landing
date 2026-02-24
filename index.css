@@ -10,7 +10,7 @@
   min-height: 85vh;
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("/pngtree-an-image-of-a-clothing-store-image_2519172.jpg") center/cover no-repeat;
+    url("pngtree-an-image-of-a-clothing-store-image_2519172.jpg") center/cover no-repeat;
   color: white;
 }
 
