@@ -5,6 +5,7 @@
   font-family: "Segoe UI", sans-serif;
 }
 
+
 /* HERO BACKGROUND */
 .full {
   min-height: 85vh;
@@ -12,6 +13,11 @@
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url("pngtree-an-image-of-a-clothing-store-image_2519172.jpg") center/cover no-repeat;
   color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* NAVBAR */
@@ -20,6 +26,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent; 
+  z-index: 1000;
 }
 @media (max-width: 768px) {
 
@@ -38,6 +50,16 @@
 }
 
 .logo span {
+  color: #0400ff;
+}
+.logo1 {
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.logo1 span {
   color: #0400ff;
 }
 
@@ -256,7 +278,7 @@
   right: -280px;
   width: 280px;
   height: 100%;
-  background: #111;
+  background: rgba(0, 0, 0, 0.5);
   padding-top: 80px;
   list-style: none;
   transition: 0.4s ease;
@@ -280,7 +302,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
